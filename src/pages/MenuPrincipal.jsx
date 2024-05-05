@@ -28,14 +28,14 @@ const MenuPrincipal = () => {
           <div className="item">
             <h1>A whole world of freelance talent at your fingertips</h1>
             <div className="title">
-              <img src="../assets/images/check.png" alt="" />
+              <img src="/img/check.png" alt="" />
               The best for every budget
             </div>
             <p>
               Find high-quality services at every price point. No hourly rates, juts project-based pricing.
             </p>
             <div className="title">
-              <img src="../assets/images/check.png" alt="" />
+              <img src="/img/check.png" alt="" />
               Quality work done quickly
             </div>
             <p>
@@ -43,7 +43,7 @@ const MenuPrincipal = () => {
             minutes.
             </p>
             <div className="title">
-              <img src="../assets/images/check.png" alt="" />
+              <img src="/img/check.png" alt="" />
               Protected payments, every time
             </div>
             <p>
@@ -51,7 +51,7 @@ const MenuPrincipal = () => {
             until you approve the work.
             </p>
             <div className="title">
-              <img src="../assets/images/check.png" alt="" />
+              <img src="/img/check.png" alt="" />
               24/7 support
             </div>
             <p>
@@ -59,7 +59,7 @@ const MenuPrincipal = () => {
             </p>
           </div>
           <div className="item">
-            <video  src="../assets/images/video.mp4" controls ></video>
+            <video  src="/img/video.mp4" controls ></video>
           </div>
         </div>
       </div>
@@ -165,17 +165,17 @@ const MenuPrincipal = () => {
               dedicated to businesses
             </p>
             <div className="title">
-              <img src="./img/check.png" alt="" />
+              <img src="/img/check.png" alt="" />
               Connect to freelancers with proven business experience
             </div>
 
             <div className="title">
-              <img src="./img/check.png" alt="" />
+              <img src="/img/check.png" alt="" />
               Get matched with the perfect talent by a customer success manager
             </div>
 
             <div className="title">
-              <img src="./img/check.png" alt="" />
+              <img src="/img/check.png" alt="" />
               Manage teamwork and boost productivity with one powerful workspace
             </div>
             <button>Explore GarzaLance Business</button>
