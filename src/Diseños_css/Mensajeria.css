@@ -1,0 +1,63 @@
+
+.cuerpom {
+    background: linear-gradient(170deg, #ffffffce, #69b2e0f3);  
+    height: 77.5vh;
+    
+
+}
+
+.chat {
+    color: #8abddf00;
+    padding: 5px;
+}
+
+.Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin-left: 500px;
+    margin-right: 500px;
+  }
+  
+  .form3 {
+    width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    background-color: #113d5b;
+    margin-left: 500px;
+    margin-right: 500px;
+  }
+  
+  .form3 div {
+    margin-bottom: 20px;
+  }
+  
+  .form3 label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .form3 input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 12px;
+    border: 0.5px solid #113d5b;
+    margin-left: 5px;
+    margin-right: 0px;
+    width: 450px; /* Reduce el ancho del input */
+    padding: 5px; /* Reduce el padding del input */
+  }
+  
+  .Join {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  

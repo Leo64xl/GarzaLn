@@ -1,0 +1,43 @@
+
+.ui-button {
+    background-color: #113d5b; 
+    border: none;
+    color: white;
+    padding: 5px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 10px px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 0.9px;
+    width: 55px; /* Define el ancho del botón */
+    height: 50px; /* Define la altura del botón */
+    margin-right: 15px;
+}
+
+.relleno2 {
+  color: #091a2500;
+
+}
+  
+.ui-button:hover {
+    background-color: #091a25;
+}
+
+.backM {
+    background: linear-gradient(170deg,  #ffffffdc, #1f72a8, #ffffffdc, #1f72a8);  
+    height: 77.5vh;     
+}
+
+.backS {
+    background: linear-gradient(170deg, #fffffff3, #7ac7fa, #ffffffdc, #4da9e7);  
+    height: 77.5vh;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.holder {
+    color: #ffffff00;
+}

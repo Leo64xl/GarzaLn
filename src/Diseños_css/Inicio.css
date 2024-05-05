@@ -1,0 +1,245 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    max-width: 100%;
+    margin: 0%;
+    margin-bottom: 40px;
+    padding: 0;
+    margin: 0;
+    height: 7vh;
+  }
+  
+  .home-container {
+    background: linear-gradient(170deg, #ffffffce, #69b2e0f3);  
+    }
+  
+  .seccion_prueba{
+    font-size: 22px;    
+    font-weight: bold;
+    padding: 6.7px;
+    padding-left: 0px;
+    padding-right: 0px;
+    color: rgba(255, 255, 255, 0.945);
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 1px;
+    cursor:pointer;
+    letter-spacing: 0.4px;   
+    text-shadow: 2px 1px 2px rgb(13, 14, 0); 
+    background: linear-gradient(90deg, #144c6e, #144c6e);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+  } 
+  
+  .seccion_prueba:hover {
+    font-size: 22px; /* Ajusta este valor a tu gusto */
+    color: rgba(226, 226, 226, 0.925);
+  }
+
+  .nav-icon {
+    margin-left: 5px;
+    padding: 5px 0;        
+  }
+
+  /* acomodamiento de elementos navbar */
+  .seccion_1{
+    width: 200px;
+    position: auto;    
+  }
+  
+  .seccion_2{
+    font-size: 22px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;            
+    padding: 6.7px;
+    padding-left: 18px;
+    padding-right: 18px;
+    letter-spacing: 0.4px;
+    background: linear-gradient(90deg, #144c6e, #144c6e);
+    border-radius: 5px;
+    margin-top: 1px;
+    color: rgba(255, 255, 255, 0.945);
+    text-shadow: 5px 2px 4px rgb(13, 14, 0); 
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;    
+  }
+
+  .nav-icon2 {
+    margin-left: 7px;
+    padding: 5px 0;    
+  }
+  
+  .seccion_2:hover {
+    font-size: 22px;
+    color: rgba(226, 226, 226, 0.925);
+  }
+  
+  .seccion_chamacos{
+    font-size: 22px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin-top: 1px;    
+    padding: 6.7px;
+    letter-spacing: 0.4px;
+    background: linear-gradient(90deg, #144c6e, #144c6e);
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.945);
+    text-shadow: 5px 2px 4px rgb(13, 14, 0);     
+    padding-left: 20px;
+    padding-right: 20px;    
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+  }
+
+  .nav-icon3 {
+    margin-left: 7px;
+    padding: 5px 0;    
+  }
+
+  .seccion_chamacos:hover {
+    font-size: 22px;
+    color: rgba(226, 226, 226, 0.925);
+  }
+  
+  .boton1 button {
+      background-color: #072b0a; /* Color de fondo */
+      color: rgba(255, 255, 255, 0.89); /* Color del texto */
+      padding: 12px 47px; /* Aumento del padding para hacer el botón más ancho */
+      border: none; /* Sin borde */
+      border-radius: 30px; /* Bordes redondeados */
+      border-color: #072b0a;
+      cursor: pointer; /* Cursor de ratón */
+      font-size: 16px; /* Tamaño de la fuente */
+      font-weight: bold; /* Peso de la fuente */
+      transition: background-color 0.3s; /* Transición suave del color de fondo */
+      margin-top: 10px; /* Margen superior */
+    }
+    
+    .boton1 button:hover {
+      background-color: #041105; /* Cambia el color de fondo al pasar el ratón */
+    }
+    
+    .boton2 button {
+      background-color: #072b0a; /* Color de fondo */
+      color: rgba(255, 255, 255, 0.89); /* Color del texto */
+      padding: 12px 47px; /* Aumento del padding para hacer el botón más ancho */
+      border: none; /* Sin borde */
+      border-radius: 30px; /* Bordes redondeados */
+      border-color: #072b0a;
+      cursor: pointer; /* Cursor de ratón */
+      font-size: 16px; /* Tamaño de la fuente */
+      font-weight: bold; /* Peso de la fuente */
+      transition: background-color 500ms; /* Transición suave del color de fondo */
+      margin-top: 10px; /* Margen superior */
+    }
+    
+    .boton2 button:hover {
+      background-color: #041105; /* Cambia el color de fondo al pasar el ratón */
+      transform: scale(1.1);
+    }
+     
+ 
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+    }
+    
+    .home-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 19px;
+    }
+
+    .welcome1 {
+      color: white;
+      padding: 10px;
+      font-size: 17px;
+      font-weight: bold;
+      text-align: left;
+      padding: 40px;
+      border-radius: 5px;
+      margin: 20px auto;
+      margin-left: 10px;
+      margin-right: 10px;
+      text-align: left;
+    }
+
+    .group-titles3 {
+      text-align: center;
+      font-size: 17px;
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 5px;
+      font-weight: bold;
+      color: #fafafa;
+      text-align: left;
+      font-weight: bold;
+      letter-spacing: 0.4px;
+    }
+    
+
+
+    .group-titles2, .s2 {
+      text-align: center;
+      font-size: 15px;
+      background-color: #144b6e;
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 5px;
+      font-weight: bold;
+      color: #fafafa;
+      margin-left: 500px;
+      margin-right: 500px;
+      text-align: left;
+      font-weight: bold;
+      text-shadow: 5px 2px 4px rgb(13, 14, 0);
+      letter-spacing: 0.4px;
+    }
+    
+    .s4 {
+      color: white;
+      padding: 10px;
+      font-size: 17px;
+      font-weight: bold;
+      text-align: left;
+      margin: 20px auto;
+      padding: 10px;
+      border-radius: 5px;
+      margin-left: 10px;
+      margin-right: 10px;
+      text-align: left;
+    }
+
+    .btn 
+    
+    button {
+      display: block;
+      width: 200px;
+      height: 50px;
+      margin: 20px auto;
+      background-color: #144c6e; /* Color de fondo del botón */
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+      box-shadow: 0px 5px 15px rgba(0,0,0,0.2); /* Sombra del botón */
+      transition: all 0.3s ease; /* Transición suave para el efecto hover */
+    }
+    
+    button:hover {
+      background-color: #113d5b; /* Color de fondo del botón al pasar el mouse */
+      box-shadow: 0px 5px 15px rgba(0,0,0,0.4); /* Sombra del botón al pasar el mouse */
+    }
