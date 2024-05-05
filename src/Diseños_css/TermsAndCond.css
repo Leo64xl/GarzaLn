@@ -1,0 +1,27 @@
+
+.termsAndCond {
+    padding: 30px;
+    background-color: #f5f5f544;
+    border-radius: 10px;
+  }
+  
+.termsContent {
+    margin: 0 auto;
+    max-width: 800px;
+}
+  
+.termsTitle {
+    text-align: center;
+    color: #2c2c2c;
+    margin-bottom: 20px;
+}
+  
+.term {
+    margin-bottom: 10px;
+    line-height: 1.6;
+    color: #525151;
+}
+  
+.term1 {
+    font-weight: bold;
+}

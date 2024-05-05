@@ -70,10 +70,15 @@
   color: #333;
 }
 
-.terms-link {
+.terms-link2 {
   /* Estilos para "terminos y condiciones" */  
   color: #1568a0;   
   text-decoration: underline; 
+}
+
+.terms-link2:hover {  
+  color: #0f4c7c;
+  text-decoration: underline;      
 }
 
 .error-message {

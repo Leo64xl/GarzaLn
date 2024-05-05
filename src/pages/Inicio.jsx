@@ -16,16 +16,16 @@ const Inicio = () => {
   <section className="s2">         
     <h2 className='group-titles'>Equipo de desarrollo:</h2> 
     <ul>
-      <li className='group-names'>*Aldana Zamudio Alexis Vladimir: (D. Backend).</li>
-      <li className='group-names'>*Miranda Muñoz Marco Antonio: (D. Frontend).</li>
-      <li className='group-names'>*Portela Reinoso Leonardo Rey: (D. Backend).</li>
-      <li className='group-names'>*Peña Escamilla Luis Angel: (D. Frontend).</li>
+      <li className='group-names'>*Aldana Zamudio Alexis Vladimir | D. Backend</li>
+      <li className='group-names'>*Miranda Muñoz Marco Antonio | D. Frontend</li>
+      <li className='group-names'>*Portela Reinoso Leonardo Rey | D. Backend</li>
+      <li className='group-names'>*Peña Escamilla Luis Angel | D. Frontend</li>
     </ul>
   </section>
 
   <section className='s3'>
     <p className='group-titles3'>
-      Esta plataforma ofrece un espacio interactivo donde los estudiantes podrán exhibir sus portafolios de habilidades, tarifas, servicios ofrecidos, y establecer una conexión directa con clientes que requieran de sus habilidades y competencias de manera efectiva. Este enfoque estratégico garantiza la sostenibilidad y el éxito continuo del proyecto de software, cumpliendo con el objetivo de crear un espacio digital que facilite el acceso a pequeñas oportunidades de emprendimiento y permita a los estudiantes aplicar y monetizar sus habilidades de manera efectiva y segura. Te invitamos a leer los <Link to="/terminos-y-condiciones" className="terms-link">términos y condiciones</Link>, Se advierte que el incumplimiento de estas reglas puede resultar en sanciones dentro de la plataforma, lo que subraya la necesidad de respetar las normas establecidas para una experiencia positiva para todos los usuarios.
+      Esta plataforma ofrece un espacio interactivo donde los estudiantes podrán exhibir sus portafolios de habilidades, tarifas, servicios ofrecidos, y establecer una conexión directa con clientes que requieran de sus habilidades y competencias de manera efectiva. Este enfoque estratégico garantiza la sostenibilidad y el éxito continuo del proyecto de software, cumpliendo con el objetivo de crear un espacio digital que facilite el acceso a pequeñas oportunidades de emprendimiento y permita a los estudiantes aplicar y monetizar sus habilidades de manera efectiva y segura. Te invitamos a leer los <Link to="/terminos-y-condiciones" className="terms-link2">términos y condiciones</Link>, Se advierte que el incumplimiento de estas reglas puede resultar en sanciones dentro de la plataforma, lo que subraya la necesidad de respetar las normas establecidas para una experiencia positiva para todos los usuarios.
     </p>
   </section>  
 
