@@ -10,7 +10,6 @@ import Login from './pages/Login';
 import Inicio from './pages/Inicio';
 import TermsAndCond from './pages/TermsAndCond';
 import Mensajeria from './pages/Mensajeria';
-//import producto from './pages/producto';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 
