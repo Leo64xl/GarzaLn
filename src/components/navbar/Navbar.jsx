@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
+import { NavLink, useNavigate } from 'react-router-dom'
 import "./Navbar.scss";
 
 function Navbar() {
   const [active, setActive] = useState(false);
   const [open, setOpen] = useState(false);
+  
 
   const { pathname } = useLocation();
 
@@ -31,7 +33,7 @@ function Navbar() {
     <div className={active || pathname !== "/" ? "navbar active" : "navbar"}>
       <div className="container">
         <div className="logo">
-          <Link className="link" to="/">
+          <Link className="link" to="/MenuPrincipal">
             <span className="text">GarzaLance</span>
           </Link>
           <span className="dot">.</span>
@@ -51,21 +53,21 @@ function Navbar() {
               {open && <div className="options">
                 {currentUser.isSeller && (
                   <>
-                    <Link className="link" to="/src/pages/myGigs/myGigs.jsx">
+                    <Link className="Gigs" to="/gigs">
                       Gigs
                     </Link>
-                    <Link className="link" to="/src/pages/add/add.jsx">
+                    <Link className="Add" to="/add">
                       Add New Gig
                     </Link>
                   </>
                 )}
-                <Link className="link" to="/src/pages/orders/Order.jsx">
+                <Link className="Order" to="/orders">
                   Orders
                 </Link>
-                <Link className="link" to="/messages">
+                <Link className="link" to="/Mensajeria">
                   Messages
                 </Link>
-                <Link className="link" to="/src/pages/Inicio.jsx">
+                <Link className="Inicio" to="/inicio-pantalla-inicial">
                   Logout
                 </Link>
               </div>}
@@ -73,7 +75,7 @@ function Navbar() {
           ) : (
             <>
               <span>Sign in</span>
-              <Link className="link" to="/register">
+              <Link className="link" to="/registro-usuario">
                 <button>Join</button>
               </Link>
             </>

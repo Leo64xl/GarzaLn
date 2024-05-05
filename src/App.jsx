@@ -10,6 +10,11 @@ import Login from './pages/Login';
 import Inicio from './pages/Inicio';
 import TermsAndCond from './pages/TermsAndCond';
 import Mensajeria from './pages/Mensajeria';
+import Gigs from "./pages/gigs/Gigs";
+import Gig from "./pages/gig/Gig";
+import Add from "./pages/add/add";
+import Orders from "./pages/orders/Order";
+import MyGigs from "./pages/myGigs/myGigs";
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 
@@ -47,6 +52,11 @@ function App () {
     <Route path="*" element={<Default />} />           
   </Route>
   <Route path="/Mensajeria" element={<Mensajeria />} />
+  <Route path="/gigs" element={<Gigs />} />
+  <Route path="/gig/:id" element={<Gig />} />
+  <Route path="/add" element={<Add />} />
+  <Route path="/orders" element={<Orders />} />
+  <Route path='/myGigs' element={<MyGigs />} />
 </Routes>           
     </div>
   )

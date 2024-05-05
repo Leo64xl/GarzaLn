@@ -1,6 +1,5 @@
 import React from 'react'
 import "./myGigs.scss"
-import "./MyGigs.scss";
 
 function MyGigs() {
   const currentUser = {
