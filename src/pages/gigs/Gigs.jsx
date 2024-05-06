@@ -24,6 +24,8 @@ function Gigs() {
       <div className="container">
         <span className="breadcrumbs">GarzaLance > Graphics & Design ></span>
         <h1>Diseño Web</h1>
+        <span className="breadcrumbs">GarzaLance  Graphics & Design </span>
+        <h1>AI Artists</h1>
         <p>
           Explora los mejores servicios de diseño web para tu negocio.
         </p>

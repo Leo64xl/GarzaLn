@@ -8,8 +8,10 @@ function Gig() {
     <div className="gig">
       <div className="container">
         <div className="left">
-          <span className="breadcrumbs">GarzaLance > Diseno Web ></span>
-          <h1>Yo creare el mejor diseno UX para tu pagina web</h1>
+          <span className="breadcrumbs">GarzaLance > Diseño Web ></span>
+          <h1>Yo creare el mejor diseño UX para tu pagina web</h1>
+         <span className="breadcrumbs">GarzaLance  Graphics & Design </span>
+          <h1>Yo creare el diseño web de tu pagina</h1>
           <div className="user">
             <img
               className="pp"
@@ -42,9 +44,7 @@ function Gig() {
           </Slider>
           <h2>Sobre este Servicio</h2>
           <p>
-          Soy Javier, un apasionado diseñador web de 32 años. Desde muy joven sentí una gran atracción por el arte, el diseño y la tecnología. Recuerdo pasar horas frente a la computadora explorando páginas web y maravillándome con los diseños cautivadores.
-Mi camino hacia el diseño web comenzó de forma autodidacta, aprendiendo a codificar y experimentando con diferentes herramientas de diseño. Pero pronto comprendí que necesitaba una formación más sólida, así que estudié Diseño Gráfico y me especialicé en Diseño Web.
-Ahora, después de casi una década en esta profesión, puedo decir que cada proyecto es un lienzo en blanco que me emociona. Amo sumergirme en el mundo del cliente, entender su negocio y objetivos para luego plasmar esas ideas en un diseño web atractivo y funcional.
+          Con nuestro Paquete de Diseño Web Premium, no solo obtendrá un sitio web visualmente impresionante, sino también una plataforma en línea optimizada para el éxito de su negocio. Invierta en su presencia digital con confianza y deje que nuestros expertos diseñadores web impulsen su marca al siguiente nivel.
           </p>
           <div className="seller">
             <h2>Sobre este Vendedor</h2>
