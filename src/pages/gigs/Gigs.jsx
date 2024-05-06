@@ -23,19 +23,19 @@ function Gigs() {
     <div className="gigs">
       <div className="container">
         <span className="breadcrumbs">GarzaLance > Graphics & Design ></span>
-        <h1>AI Artists</h1>
+        <h1>Diseño Web</h1>
         <p>
-          Explore the boundaries of art and technology with GarzaLance AI artists
+          Explora los mejores servicios de diseño web para tu negocio.
         </p>
         <div className="menu">
           <div className="left">
             <span>Budget</span>
             <input ref={minRef} type="number" placeholder="min" />
             <input ref={maxRef} type="number" placeholder="max" />
-            <button onClick={apply}>Apply</button>
+            <button onClick={apply}>Aplicar</button>
           </div>
           <div className="right">
-            <span className="sortBy">Sort by</span>
+            <span className="sortBy">Ordenar por</span>
             <span className="sortType">
               {sort === "sales" ? "Best Selling" : "Newest"}
             </span>
@@ -43,9 +43,9 @@ function Gigs() {
             {open && (
               <div className="rightMenu">
                 {sort === "sales" ? (
-                  <span onClick={() => reSort("createdAt")}>Newest</span>
+                  <span onClick={() => reSort("createdAt")}>Lo mas nuevo</span>
                 ) : (
-                  <span onClick={() => reSort("sales")}>Best Selling</span>
+                  <span onClick={() => reSort("sales")}>Mejor vendido</span>
                   )}
                   <span onClick={() => reSort("sales")}>Popular</span>
               </div>

@@ -13,15 +13,15 @@ const Orders = () => {
     <div className="orders">
       <div className="container">
         <div className="title">
-          <h1>Orders</h1>
+          <h1>Pedido</h1>
         </div>
         <table>
           <tr>
-            <th>Image</th>
-            <th>Title</th>
-            <th>Price</th>
+            <th>Imagen</th>
+            <th>Titulo</th>
+            <th>Precio</th>
             {<th>{currentUser.isSeller ? "Buyer" : "Seller"}</th>}
-            <th>Contact</th>
+            <th>Contacto</th>
           </tr>
           <tr>
             <td>

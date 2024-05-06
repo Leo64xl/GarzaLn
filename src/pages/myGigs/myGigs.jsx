@@ -4,7 +4,7 @@ import "./myGigs.scss"
 function MyGigs() {
   const currentUser = {
     id: 1,
-    username: "Anna",
+    username: "User",
     isSeller: true,
   };
 
@@ -15,17 +15,17 @@ function MyGigs() {
           <h1>{currentUser.isSeller ? "Gigs" : "Orders"}</h1>
           {currentUser.isSeller && (
             <Link to="/add">
-              <button>Add New Gig</button>
+              <button>Agrega un nuevo servicio</button>
             </Link>
           )}
         </div>
         <table>
           <tr>
-            <th>Image</th>
-            <th>Title</th>
-            <th>Price</th>
-            <th>Sales</th>
-            <th>Action</th>
+            <th>Imagen</th>
+            <th>Nombre del producto</th>
+            <th>Precio</th>
+            <th>Ventas</th>
+            <th>Acccion</th>
           </tr>
           <tr>
             <td>
@@ -36,7 +36,7 @@ function MyGigs() {
               />
             </td>
             <td>Stunning concept art</td>
-            <td>59.<sup>99</sup></td>
+            <td>199.<sup>99</sup></td>
             <td>13</td>
             <td>
               <img className="delete" src="/img/delete.png" alt="" />

@@ -25,7 +25,7 @@ function Navbar() {
 
   const currentUser = {
     id: 1,
-    username: "Anna",
+    username: "User",
     isSeller: true,
   };
 
@@ -40,9 +40,9 @@ function Navbar() {
         </div>
         <div className="links">
           <span>GarzaLance Business</span>
-          <span>Explore</span>
-          <span>English</span>
-          {!currentUser?.isSeller && <span>Become a Seller</span>}
+          <span>Explora</span>
+          <span>Pedidos</span>
+          {!currentUser?.isSeller && <span>Conviertete en Vendedor</span>}
           {currentUser ? (
             <div className="user" onClick={()=>setOpen(!open)}>
               <img
@@ -54,18 +54,18 @@ function Navbar() {
                 {currentUser.isSeller && (
                   <>
                     <Link className="Gigs" to="/gigs">
-                      Gigs
+                      Servicios
                     </Link>
                     <Link className="Add" to="/add">
-                      Add New Gig
+                      Publicar un Servicio
                     </Link>
                   </>
                 )}
                 <Link className="Order" to="/orders">
-                  Orders
+                  Pedidos
                 </Link>
                 <Link className="link" to="/Mensajeria">
-                  Messages
+                  Mensajeria
                 </Link>
                 <Link className="Inicio" to="/inicio-pantalla-inicial">
                   Logout
@@ -76,7 +76,7 @@ function Navbar() {
             <>
               <span>Sign in</span>
               <Link className="link" to="/registro-usuario">
-                <button>Join</button>
+                <button>Unete</button>
               </Link>
             </>
           )}
@@ -87,31 +87,31 @@ function Navbar() {
           <hr />
           <div className="menu">
             <Link className="link menuLink" to="/">
-              Graphics & Design
+              Artes Graficas y Diseño
             </Link>
             <Link className="link menuLink" to="/">
-              Video & Animation
+              Video y Animacion
             </Link>
             <Link className="link menuLink" to="/">
-              Writing & Translation
+              Escritura y Traduccion
             </Link>
             <Link className="link menuLink" to="/">
-              AI Services
+              AI Servicios
             </Link>
             <Link className="link menuLink" to="/">
-              Digital Marketing
+              Marketing Digital 
             </Link>
             <Link className="link menuLink" to="/">
-              Music & Audio
+              Musica y Audio
             </Link>
             <Link className="link menuLink" to="/">
-              Programming & Tech
+              Programacion y Tecnologia
             </Link>
             <Link className="link menuLink" to="/">
-              Business
+              Negocios
             </Link>
             <Link className="link menuLink" to="/">
-              Lifestyle
+              Estilo de Vida
             </Link>
           </div>
           <hr />

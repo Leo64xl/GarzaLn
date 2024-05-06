@@ -26,36 +26,36 @@ const MenuPrincipal = () => {
       <div className="features">
         <div className="container">
           <div className="item">
-            <h1>A whole world of freelance talent at your fingertips</h1>
+            <h1>Todo un mundo de talento freelance a tu alcance</h1>
             <div className="title">
               <img src="/img/check.png" alt="" />
-              The best for every budget
+              La mejor para cada presupuesto.
             </div>
             <p>
-              Find high-quality services at every price point. No hourly rates, juts project-based pricing.
+            Encuentre servicios de alta calidad a todos los precios. Sin tarifas por hora, solo precios basados en proyectos.
             </p>
             <div className="title">
               <img src="/img/check.png" alt="" />
-              Quality work done quickly
+              Trabajo de calidad hecho rápidamente.
             </div>
             <p>
-            Find the right freelancer to begin working on your project within
-            minutes.
+            Encuentre el freelancer adecuado para comenzar a trabajar en su proyecto dentro
+            minutos.
             </p>
             <div className="title">
               <img src="/img/check.png" alt="" />
-              Protected payments, every time
+              Pagos protegidos, todo el tiempo
             </div>
             <p>
-            Always know what you all pay upfront. Your payment isnt released
-            until you approve the work.
+            Sepa siempre lo que todos pagan por adelantado. 
+            Su pago no se libera hasta que apruebe el trabajo.
             </p>
             <div className="title">
               <img src="/img/check.png" alt="" />
-              24/7 support
+              Soporte 24/7
             </div>
             <p>
-            Our support team is available around the clock anytime, anywhere.
+            Nuestro equipo de soporte está disponible las 24 horas del día, en cualquier momento y en cualquier lugar.
             </p>
           </div>
           <div className="item">
@@ -65,7 +65,7 @@ const MenuPrincipal = () => {
       </div>
       <div className="explore">
         <div className="container">
-          <h1>Explore the marketplace</h1>
+          <h1>Explora el Marketplace</h1>
           <div className="items">
           <div className="item">
             <img
@@ -73,7 +73,7 @@ const MenuPrincipal = () => {
               alt=""
             />
             <div className="line"></div>
-            <span>Graphics & Design</span>
+            <span>Diseño Grafico y Diseño</span>
           </div>
             <div className="item">
             <img
@@ -82,7 +82,7 @@ const MenuPrincipal = () => {
             />
             <div className="line"></div>
 
-            <span>Digital Marketing</span>
+            <span> Marketing Digital</span>
           </div>
           <div className="item">
             <img
@@ -90,7 +90,7 @@ const MenuPrincipal = () => {
               alt=""
             />
             <div className="line"></div>
-            <span>Writing & Translation</span>
+            <span>Escritura y Traduccion</span>
           </div>
           <div className="item">
             <img
@@ -98,7 +98,7 @@ const MenuPrincipal = () => {
               alt=""
             />
             <div className="line"></div>
-            <span>Video & Animation</span>
+            <span>Video y Animacion</span>
           </div>
           <div className="item">
             <img
@@ -106,7 +106,7 @@ const MenuPrincipal = () => {
               alt=""
             />
             <div className="line"></div>
-            <span>Music & Audio</span>
+            <span>Musica y Audio</span>
           </div>
           <div className="item">
             <img
@@ -114,7 +114,7 @@ const MenuPrincipal = () => {
               alt=""
             />
             <div className="line"></div>
-            <span>Programming & Tech</span>
+            <span>Programacion y Tecnologia</span>
           </div>
           <div className="item">
             <img
@@ -122,7 +122,7 @@ const MenuPrincipal = () => {
               alt=""
             />
             <div className="line"></div>
-            <span>Business</span>
+            <span>Negocios</span>
           </div>
           <div className="item">
             <img
@@ -130,7 +130,7 @@ const MenuPrincipal = () => {
               alt=""
             />
             <div className="line"></div>
-            <span>Lifestyle</span>
+            <span>Estilo de vida</span>
           </div>
           <div className="item">
             <img
@@ -138,7 +138,7 @@ const MenuPrincipal = () => {
               alt=""
             />
             <div className="line"></div>
-            <span>Data</span>
+            <span>Datos</span>
           </div>
           <div className="item">
             <img
@@ -146,7 +146,7 @@ const MenuPrincipal = () => {
               alt=""
             />
             <div className="line"></div>
-            <span>Photography</span>
+            <span>Fotografia</span>
           </div>
           </div>
         </div>
@@ -158,27 +158,27 @@ const MenuPrincipal = () => {
               GarzaLance <i>business</i>
             </h1>
             <h1>
-              A business solution designed for <i>teams</i>
+              Soluciones diseñadas para <i>equipos</i>
             </h1>
             <p>
-              Upgrade to a curated experience packed with tools and benefits,
-              dedicated to businesses
+            Actualice a una experiencia seleccionada repleta de herramientas y beneficios,
+            dedicado a las empresas
             </p>
             <div className="title">
               <img src="/img/check.png" alt="" />
-              Connect to freelancers with proven business experience
+              Conecta con freelancers con experiencia comprobada
             </div>
 
             <div className="title">
               <img src="/img/check.png" alt="" />
-              Get matched with the perfect talent by a customer success manager
+              Obtenga el talento perfecto de un gerente de éxito del cliente.
             </div>
 
             <div className="title">
               <img src="/img/check.png" alt="" />
-              Manage teamwork and boost productivity with one powerful workspace
+              Gestione el trabajo en equipo y aumente la productividad con un potente espacio de trabajo
             </div>
-            <button>Explore GarzaLance Business</button>
+            <button>Explora GarzaLance Business</button>
           </div>
           <div className="item">
             <img

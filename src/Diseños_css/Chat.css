@@ -44,12 +44,12 @@
 }
 
 .backM {
-    background: linear-gradient(170deg,  #ffffffdc, #1f72a8, #ffffffdc, #1f72a8);  
+    background: linear-gradient(170deg,  #ffffffce, #68b9ebf3);  
     height: 77.5vh;     
 }
 
 .backS {
-    background: linear-gradient(170deg, #fffffff3, #7ac7fa, #ffffffdc, #4da9e7);  
+    background: linear-gradient(170deg, #ffffffce, #69b2e0);  
     height: 77.5vh;
     margin-left: 120px;
     margin-right: 120px;
