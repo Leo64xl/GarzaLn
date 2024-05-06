@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 import { faMoneyBillTransfer } from '@fortawesome/free-solid-svg-icons';
 import ScrollToBottom, { useScrollToBottom } from 'react-scroll-to-bottom';
-//import EmojiPicker from 'emoji-picker-react';
+
 
 const Chat = ({socket, username, room}) => {
 
