@@ -22,16 +22,14 @@ function Gigs() {
   return (
     <div className="gigs">
       <div className="container">
-        <span className="breadcrumbs">GarzaLance > Graphics & Design ></span>
+        <span className="breadcrumbs">GarzaLance > Graficos y Diseño ></span>
         <h1>Diseño Web</h1>
-        <span className="breadcrumbs">GarzaLance  Graphics & Design </span>
-        <h1>AI Artists</h1>
         <p>
           Explora los mejores servicios de diseño web para tu negocio.
         </p>
         <div className="menu">
           <div className="left">
-            <span>Budget</span>
+            <span>Presupuesto</span>
             <input ref={minRef} type="number" placeholder="min" />
             <input ref={maxRef} type="number" placeholder="max" />
             <button onClick={apply}>Aplicar</button>
@@ -39,7 +37,7 @@ function Gigs() {
           <div className="right">
             <span className="sortBy">Ordenar por</span>
             <span className="sortType">
-              {sort === "sales" ? "Best Selling" : "Newest"}
+              {sort === "sales" ? "Mejor vendido" : "Lo mas nuevo"}
             </span>
             <img src="/img/down.png" alt="" onClick={() => setOpen(!open)} />
             {open && (

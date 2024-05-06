@@ -11,7 +11,7 @@ const Add = () => {
             <label htmlFor="">Titulo</label>
             <input
               type="text"
-              placeholder="e.g. I will do something I'm really good at"
+              placeholder="ejemplo. Haré algo en lo que soy muy bueno"
             />
             <label htmlFor="">Categoria</label>
             <select name="cats" id="cats">
@@ -25,7 +25,7 @@ const Add = () => {
             <label htmlFor="">Agrega Imagenes</label>
             <input type="file" multiple />
             <label htmlFor="">Descripcion</label>
-            <textarea name="" id="" placeholder="Brief descriptions to introduce your service to customers" cols="0" rows="16"></textarea>
+            <textarea name="" id="" placeholder="Descripciones breves para presentar su servicio a los clientes." cols="0" rows="16"></textarea>
             <button>Create</button>
           </div>
           <div className="details">
