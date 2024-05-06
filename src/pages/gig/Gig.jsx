@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Gig.scss"
-
+import { Link } from 'react-router-dom';
 
 function Gig() {
   return (
@@ -273,7 +273,9 @@ function Gig() {
               <span>Additional design</span>
             </div>
           </div>
+          <Link to="/Mensajeria">
           <button>Continue</button>
+          </Link>
         </div>
       </div>
     </div>
