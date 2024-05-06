@@ -1,13 +1,13 @@
 import React from 'react'
 import "./Gig.scss"
-import { Slider } from "infinite-react-carousel/lib";
+
 
 function Gig() {
   return (
     <div className="gig">
       <div className="container">
         <div className="left">
-          <span className="breadcrumbs">GarzaLance > Graphics & Design ></span>
+          <span className="breadcrumbs"> Graphics & Design </span>
           <h1>I will create ai generated art for you</h1>
           <div className="user">
             <img
@@ -25,7 +25,7 @@ function Gig() {
               <span>5</span>
             </div>
           </div>
-          <Slider slidesToShow={1} arrowsScroll={1} className="slider">
+
             <img
               src="https://images.pexels.com/photos/1074535/pexels-photo-1074535.jpeg?auto=compress&cs=tinysrgb&w=1600"
               alt=""
@@ -38,7 +38,7 @@ function Gig() {
               src="https://images.pexels.com/photos/1054777/pexels-photo-1054777.jpeg?auto=compress&cs=tinysrgb&w=1600"
               alt=""
             />
-          </Slider>
+          
           <h2>About This Gig</h2>
           <p>
             I use an AI program to create images based on text prompts. This

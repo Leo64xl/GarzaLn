@@ -17,9 +17,27 @@
     margin-right: 15px;
 }
 
-.relleno2 {
-  color: #091a2500;
+.relleno1 {
+    background-color: #13202900; 
+    border: none;
+    color: #113d5b;
+    padding: 12px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 28px;
+    margin: 10px px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 0.9px;
+    width: 55px; /* Define el ancho del botón */
+    height: 50px; /* Define la altura del botón */
+    margin-right: 10px;
+    margin-left: 10px;
+}
 
+.relleno2 {
+    color: #113d5b;
 }
   
 .ui-button:hover {

@@ -5,6 +5,7 @@ import { useState, useEffect } from 'react';
 import { Container, Divider, Card, CardContent, Icon, FormField, Button, Form, Input, MessageHeader, Message } from 'semantic-ui-react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
+import { faMoneyBillTransfer } from '@fortawesome/free-solid-svg-icons';
 import ScrollToBottom, { useScrollToBottom } from 'react-scroll-to-bottom';
 //import EmojiPicker from 'emoji-picker-react';
 
@@ -69,7 +70,11 @@ const Chat = ({socket, username, room}) => {
          <Form>
              <FormField>
                <div class="ui action input">
-               <h1 className='relleno2'>h</h1>
+               <div className='relleno1'>
+               <a className='relleno2' href="https://www.paypal.com/us/digital-wallet/send-receive-money/send-money" target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={faMoneyBillTransfer} />
+               </a>
+               </div>
                 <Input
                     type='text' 
                     value={currentMessage}
