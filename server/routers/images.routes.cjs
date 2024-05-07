@@ -1,7 +1,7 @@
 import { Router } from 'express'
 import AWS from 'aws-sdk'
-import config from '../config.js'
-import Image from '../models/images.js'
+import config from '../config.cjs'
+import Image from '../models/images.cjs'
 
 const router = Router()
 
@@ -31,7 +31,12 @@ router.post('/api/images/upload', async (req, res) => {
             descripcion: req.body.descripcion,
             price: req.body.price,
             nameUser: req.body.nameUser,
-            available: req.body.available
+            title: req.body.title,
+            nameService: req.body.nameService,
+            categoty: req.body.categoty,
+            time: req.body.time,
+            caracteristicas: req.body.caracteristicas
+
         })
         await imageInf.save();
         //console.log(uploadObject)

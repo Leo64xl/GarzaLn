@@ -1,10 +1,9 @@
 import express from 'express'
-import indexRoutes from './routers/index.routes.js'
+import indexRoutes from './routers/index.routes.cjs'
 import fileUpload from 'express-fileupload'
-import imagesRoutes from'./routers/images.routes.js'
-import config from './config.js'
-import './database.js'
-//require("dotenv").config();
+import imagesRoutes from'./routers/images.routes.cjs'
+import config from './config.cjs'
+import './database.cjs'
 
 const app =express()
 

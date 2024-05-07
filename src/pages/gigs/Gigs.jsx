@@ -22,7 +22,7 @@ function Gigs() {
   return (
     <div className="gigs">
       <div className="container">
-        <span className="breadcrumbs">GarzaLance > Graficos y Diseño ></span>
+        <span className="breadcrumbs">GarzaLance  Graficos y Diseño </span>
         <h1>Diseño Web</h1>
         <p>
           Explora los mejores servicios de diseño web para tu negocio.
