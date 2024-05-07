@@ -1,6 +1,5 @@
 import React from 'react'
 import "./Gig.scss"
-import { Slider } from "infinite-react-carousel/lib";
 import { Link } from 'react-router-dom';
 
 function Gig() {
@@ -8,7 +7,7 @@ function Gig() {
     <div className="gig">
       <div className="container">
         <div className="left">
-          <span className="breadcrumbs">GarzaLance > Diseño Web ></span>
+          <span className="breadcrumbs">GarzaLance Diseño Web </span>
           <h1>Yo creare el mejor diseño UX para tu pagina web</h1>
          <span className="breadcrumbs">GarzaLance  Graphics & Design </span>
           <h1>Yo creare el diseño web de tu pagina</h1>
