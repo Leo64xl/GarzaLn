@@ -178,7 +178,7 @@ const MenuPrincipal = () => {
               <img src="/img/check.png" alt="" />
               Gestione el trabajo en equipo y aumente la productividad con un potente espacio de trabajo
             </div>
-            <button>Explora GarzaLance Business</button>
+            <button>Prueba GarzaLance Business</button>
           </div>
           <div className="item">
             <img

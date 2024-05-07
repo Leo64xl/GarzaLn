@@ -7,7 +7,8 @@ function Gig() {
     <div className="gig">
       <div className="container">
         <div className="left">
-          <span className="breadcrumbs">GarzaLance Diseño Web </span>
+          <span className="breadcrumbs">GarzaLance Diseño Web</span>
+
           <h1>Yo creare el mejor diseño UX para tu pagina web</h1>
          <span className="breadcrumbs">GarzaLance  Graphics & Design </span>
           <h1>Yo creare el diseño web de tu pagina</h1>
@@ -27,7 +28,7 @@ function Gig() {
               <span>5</span>
             </div>
           </div>
-          <Slider slidesToShow={1} arrowsScroll={1} className="slider">
+
             <img
               src="https://images.pexels.com/photos/1074535/pexels-photo-1074535.jpeg?auto=compress&cs=tinysrgb&w=1600"
               alt=""
@@ -40,8 +41,8 @@ function Gig() {
               src="https://images.pexels.com/photos/1054777/pexels-photo-1054777.jpeg?auto=compress&cs=tinysrgb&w=1600"
               alt=""
             />
-          </Slider>
-          <h2>Sobre este Servicio</h2>
+        
+          <h2>About This Gig</h2>
           <p>
           Con nuestro Paquete de Diseño Web Premium, no solo obtendrá un sitio web visualmente impresionante, sino también una plataforma en línea optimizada para el éxito de su negocio. Invierta en su presencia digital con confianza y deje que nuestros expertos diseñadores web impulsen su marca al siguiente nivel.
           </p>
@@ -81,16 +82,16 @@ function Gig() {
                 </div>
                 <div className="item">
                   <span className="title">Ultimo pedido</span>
-                  <span className="desc">1 dia</span>
+                  <span className="desc">Hace 1 dia</span>
                 </div>
                 <div className="item">
                   <span className="title">Idioma</span>
-                  <span className="desc">Espanol</span>
+                  <span className="desc">Español</span>
                 </div>
               </div>
               <hr />
               <p>
-              Soy Javier, un apasionado diseñador web de 32 años. Desde muy joven sentí una gran atracción por el arte, el diseño y la tecnología. Recuerdo pasar horas frente a la computadora explorando páginas web y maravillándome con los diseños cautivadores.
+              Soy Jose, un apasionado diseñador web de 32 años. Desde muy joven sentí una gran atracción por el arte, el diseño y la tecnología. Recuerdo pasar horas frente a la computadora explorando páginas web y maravillándome con los diseños cautivadores.
               </p>
             </div>
           </div>
@@ -225,17 +226,16 @@ function Gig() {
         </div>
         <div className="right">
           <div className="price">
-            <h3>Diseño basico de la pagina</h3>
+            <h3>Diseño basico de pagina</h3>
             <h2>MXN$ 199</h2>
           </div>
           <p>
-            I will create a unique high quality AI generated image based on a
-            description that you give me
+            Yo creare el diseño web unico para tu pagina, basado en la descripcion que tu me proporciones
           </p>
           <div className="details">
             <div className="item">
               <img src="/img/clock.png" alt="" />
-              <span>2 Days Delivery</span>
+              <span>Entrega en 2 dias</span>
             </div>
             <div className="item">
               <img src="/img/recycle.png" alt="" />
