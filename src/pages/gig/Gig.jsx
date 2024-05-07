@@ -7,7 +7,7 @@ function Gig() {
     <div className="gig">
       <div className="container">
         <div className="left">
-          <span className="breadcrumbs"> Graphics & Design </span>
+          <span className="breadcrumbs">GarzaLance Graphics & Design </span>
           <h1>I will create ai generated art for you</h1>
           <div className="user">
             <img
@@ -15,7 +15,7 @@ function Gig() {
               src="https://images.pexels.com/photos/720327/pexels-photo-720327.jpeg?auto=compress&cs=tinysrgb&w=1600"
               alt=""
             />
-            <span>Anna Bell</span>
+            <span>User</span>
             <div className="stars">
               <img src="/img/star.png" alt="" />
               <img src="/img/star.png" alt="" />
@@ -38,32 +38,20 @@ function Gig() {
               src="https://images.pexels.com/photos/1054777/pexels-photo-1054777.jpeg?auto=compress&cs=tinysrgb&w=1600"
               alt=""
             />
-          
+        
           <h2>About This Gig</h2>
           <p>
-            I use an AI program to create images based on text prompts. This
-            means I can help you to create a vision you have through a textual
-            description of your scene without requiring any reference images.
-            Some things I've found it often excels at are: Character portraits
-            (E.g. a picture to go with your DnD character) Landscapes (E.g.
-            wallpapers, illustrations to compliment a story) Logos (E.g. Esports
-            team, business, profile picture) You can be as vague or as
-            descriptive as you want. Being more vague will allow the AI to be
-            more creative which can sometimes result in some amazing images. You
-            can also be incredibly precise if you have a clear image of what you
-            want in mind. All of the images I create are original and will be
-            found nowhere else. If you have any questions you're more than
-            welcome to send me a message.
+          Con nuestro Paquete de Diseño Web Premium, no solo obtendrá un sitio web visualmente impresionante, sino también una plataforma en línea optimizada para el éxito de su negocio. Invierta en su presencia digital con confianza y deje que nuestros expertos diseñadores web impulsen su marca al siguiente nivel.
           </p>
           <div className="seller">
-            <h2>About The Seller</h2>
+            <h2>Sobre este Vendedor</h2>
             <div className="user">
               <img
                 src="https://images.pexels.com/photos/720327/pexels-photo-720327.jpeg?auto=compress&cs=tinysrgb&w=1600"
                 alt=""
               />
               <div className="info">
-                <span>Anna Bell</span>
+                <span>Jose Martinez</span>
                 <div className="stars">
                   <img src="/img/star.png" alt="" />
                   <img src="/img/star.png" alt="" />
@@ -72,43 +60,40 @@ function Gig() {
                   <img src="/img/star.png" alt="" />
                   <span>5</span>
                 </div>
-                <button>Contact Me</button>
+                <button>Contactame</button>
               </div>
             </div>
             <div className="box">
               <div className="items">
                 <div className="item">
-                  <span className="title">From</span>
-                  <span className="desc">USA</span>
+                  <span className="title">Desde</span>
+                  <span className="desc">Mexico</span>
                 </div>
                 <div className="item">
-                  <span className="title">Member since</span>
+                  <span className="title">Miembro desde</span>
                   <span className="desc">Aug 2022</span>
                 </div>
                 <div className="item">
-                  <span className="title">Avg. response time</span>
-                  <span className="desc">4 hours</span>
+                  <span className="title">Tiempo de respuesta</span>
+                  <span className="desc">4 horas</span>
                 </div>
                 <div className="item">
-                  <span className="title">Last delivery</span>
-                  <span className="desc">1 day</span>
+                  <span className="title">Ultimo pedido</span>
+                  <span className="desc">1 dia</span>
                 </div>
                 <div className="item">
-                  <span className="title">Languages</span>
-                  <span className="desc">English</span>
+                  <span className="title">Idioma</span>
+                  <span className="desc">Espanol</span>
                 </div>
               </div>
               <hr />
               <p>
-                My name is Anna, I enjoy creating AI generated art in my spare
-                time. I have a lot of experience using the AI program and that
-                means I know what to prompt the AI with to get a great and
-                incredibly detailed result.
+              Soy Javier, un apasionado diseñador web de 32 años. Desde muy joven sentí una gran atracción por el arte, el diseño y la tecnología. Recuerdo pasar horas frente a la computadora explorando páginas web y maravillándome con los diseños cautivadores.
               </p>
             </div>
           </div>
           <div className="reviews">
-            <h2>Reviews</h2>
+            <h2>Reseñas</h2>
             <div className="item">
               <div className="user">
                 <img
@@ -144,7 +129,7 @@ function Gig() {
                 gig, and know already that Ill be using it again very very soon
               </p>
               <div className="helpful">
-                <span>Helpful?</span>
+                <span>Ayudo?</span>
                 <img src="/img/like.png" alt="" />
                 <span>Yes</span>
                 <img src="/img/dislike.png" alt="" />
@@ -185,7 +170,7 @@ function Gig() {
                 is, you need this designer!
               </p>
               <div className="helpful">
-                <span>Helpful?</span>
+                <span>Ayudo?</span>
                 <img src="/img/like.png" alt="" />
                 <span>Yes</span>
                 <img src="/img/dislike.png" alt="" />
@@ -227,7 +212,7 @@ function Gig() {
                 gig, and know already that Ill be using it again very very soon
               </p>
               <div className="helpful">
-                <span>Helpful?</span>
+                <span>Ayudo?</span>
                 <img src="/img/like.png" alt="" />
                 <span>Yes</span>
                 <img src="/img/dislike.png" alt="" />
@@ -238,8 +223,8 @@ function Gig() {
         </div>
         <div className="right">
           <div className="price">
-            <h3>1 AI generated image</h3>
-            <h2>$ 59.99</h2>
+            <h3>Diseño basico de la pagina</h3>
+            <h2>MXN$ 199</h2>
           </div>
           <p>
             I will create a unique high quality AI generated image based on a
@@ -252,29 +237,29 @@ function Gig() {
             </div>
             <div className="item">
               <img src="/img/recycle.png" alt="" />
-              <span>3 Revisions</span>
+              <span>3 Reseñas</span>
             </div>
           </div>
           <div className="features">
             <div className="item">
               <img src="/img/greencheck.png" alt="" />
-              <span>Prompt writing</span>
+              <span>Colorimetria perfecta</span>
             </div>
             <div className="item">
               <img src="/img/greencheck.png" alt="" />
-              <span>Artwork delivery</span>
+              <span>Estilo minimalista</span>
             </div>
             <div className="item">
               <img src="/img/greencheck.png" alt="" />
-              <span>Image upscaling</span>
+              <span>Componentes funcionales</span>
             </div>
             <div className="item">
               <img src="/img/greencheck.png" alt="" />
-              <span>Additional design</span>
+              <span>Diseño adicional</span>
             </div>
           </div>
           <Link to="/Mensajeria">
-          <button>Continue</button>
+          <button>Contactame</button>
           </Link>
         </div>
       </div>

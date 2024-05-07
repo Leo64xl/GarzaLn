@@ -5,44 +5,44 @@ const Add = () => {
   return (
     <div className="add">
       <div className="container">
-        <h1>Add New Gig</h1>
+        <h1>Añade un nuevo servicio</h1>
         <div className="sections">
           <div className="info">
-            <label htmlFor="">Title</label>
+            <label htmlFor="">Titulo</label>
             <input
               type="text"
-              placeholder="e.g. I will do something I'm really good at"
+              placeholder="ejemplo. Haré algo en lo que soy muy bueno"
             />
-            <label htmlFor="">Category</label>
+            <label htmlFor="">Categoria</label>
             <select name="cats" id="cats">
-              <option value="design">Design</option>
-              <option value="web">Web Development</option>
-              <option value="animation">Animation</option>
-              <option value="music">Music</option>
+              <option value="design">Diseño</option>
+              <option value="web">Desarrollo Web</option>
+              <option value="animation">Animacion</option>
+              <option value="music">Musica</option>
             </select>
-            <label htmlFor="">Cover Image</label>
+            <label htmlFor="">Miniatura</label>
             <input type="file" />
-            <label htmlFor="">Upload Images</label>
+            <label htmlFor="">Agrega Imagenes</label>
             <input type="file" multiple />
-            <label htmlFor="">Description</label>
-            <textarea name="" id="" placeholder="Brief descriptions to introduce your service to customers" cols="0" rows="16"></textarea>
+            <label htmlFor="">Descripcion</label>
+            <textarea name="" id="" placeholder="Descripciones breves para presentar su servicio a los clientes." cols="0" rows="16"></textarea>
             <button>Create</button>
           </div>
           <div className="details">
-            <label htmlFor="">Service Title</label>
-            <input type="text" placeholder="e.g. One-page web design" />
-            <label htmlFor="">Short Description</label>
-            <textarea name="" id="" placeholder="Short description of your service" cols="30" rows="10"></textarea>
-            <label htmlFor="">Delivery Time (e.g. 3 days)</label>
+            <label htmlFor="">Nombre del servicio</label>
+            <input type="text" placeholder="ejemplo: GarzaLance" />
+            <label htmlFor="">Descricion de tu servicio</label>
+            <textarea name="" id="" placeholder="Breve descripcion de tu servicio o producto" cols="30" rows="10"></textarea>
+            <label htmlFor="">Tiempo de entrega (e.g. 3 dias)</label>
             <input type="number" />
-            <label htmlFor="">Revision Number</label>
+            <label htmlFor="">Numero de reseñas</label>
             <input type="number" />
-            <label htmlFor="">Add Features</label>
-            <input type="text" placeholder="e.g. page design" />
-            <input type="text" placeholder="e.g. file uploading" />
-            <input type="text" placeholder="e.g. setting up a domain" />
+            <label htmlFor="">Añade Caracteristicas</label>
+            <input type="text" placeholder="e.g. diseño de pagina" />
+            <input type="text" placeholder="e.g. subir archivos" />
+            <input type="text" placeholder="e.g. configura tu dominio" />
             <input type="text" placeholder="e.g. hosting" />
-            <label htmlFor="">Price</label>
+            <label htmlFor="">Precio</label>
             <input type="number" />
           </div>
         </div>

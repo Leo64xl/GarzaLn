@@ -7,21 +7,21 @@ const Featured = () => {
         <div className="container">
             <div className="left">
                 <h1>
-                Find the perfect <i>freelance</i> services for your business
+                Encuentra el perfecto <i>freelance</i> servicios para tu negocio
                 </h1>
                 <div className="search">
                     <div className="searchInput">
                         <img src="/img/search.png" alt="" />
-                        <input type="text" placeholder='Try "building mobil app'/>
+                        <input type="text" placeholder='Prueba con Pixel Art'/>
                     </div>
-                    <button>Search</button>
+                    <button>Buscar</button>
                 </div>
                 <div className="popular">
                     <span>Popular:</span>
-                    <button>Web Design</button>
+                    <button>Diseño Web</button>
                     <button>WordPress</button>
-                    <button>logo Design</button>
-                    <button>AI Services</button>
+                    <button>Diseño de logo</button>
+                    <button>Servicios IA</button>
                 </div>
             </div>
             <div className="right">
