@@ -41,7 +41,9 @@ function Navbar() {
         <div className="links">
           <span>GarzaLance Business</span>
           <span>Explora</span>
+          <Link to="/orders">
           <span>Pedidos</span>
+          </Link>
           {!currentUser?.isSeller && <span>Conviertete en Vendedor</span>}
           {currentUser ? (
             <div className="user" onClick={()=>setOpen(!open)}>
@@ -55,6 +57,9 @@ function Navbar() {
                   <>
                     <Link className="Gigs" to="/gigs">
                       Servicios
+                    </Link>
+                    <Link className="MyGigs" to="/myGigs">
+                      Mis Servicios
                     </Link>
                     <Link className="Add" to="/add">
                       Publicar un Servicio
@@ -74,7 +79,7 @@ function Navbar() {
             </div>
           ) : (
             <>
-              <span>Sign in</span>
+              <span>Registrate</span>
               <Link className="link" to="/registro-usuario">
                 <button>Unete</button>
               </Link>
