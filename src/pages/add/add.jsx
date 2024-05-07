@@ -1,11 +1,13 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 import "./add.scss"
+
 
 const Add = () => {
   return (
     <div className="add">
       <div className="container">
-        <h1>Añade un nuevo servicio</h1>
+        <h1>Publica un nuevo servicio</h1>
         <div className="sections">
           <div className="info">
             <label htmlFor="">Titulo</label>
@@ -22,27 +24,29 @@ const Add = () => {
             </select>
             <label htmlFor="">Miniatura</label>
             <input type="file" />
-            <label htmlFor="">Agrega Imagenes</label>
+            <label htmlFor="">Agrega fotos de tu servicio</label>
             <input type="file" multiple />
-            <label htmlFor="">Descripcion</label>
+            <label htmlFor="">Breve descripcion para tu miniatura</label>
             <textarea name="" id="" placeholder="Descripciones breves para presentar su servicio a los clientes." cols="0" rows="16"></textarea>
-            <button>Create</button>
+            <Link className='link' to="/myGigs">
+            <button>Publicar</button>
+            </Link>
           </div>
           <div className="details">
-            <label htmlFor="">Nombre del servicio</label>
+            <label htmlFor="">Cual es el nombre de tu servicio?</label>
             <input type="text" placeholder="ejemplo: GarzaLance" />
-            <label htmlFor="">Descricion de tu servicio</label>
+            <label htmlFor="">Descripcion de tu servicio</label>
             <textarea name="" id="" placeholder="Breve descripcion de tu servicio o producto" cols="30" rows="10"></textarea>
-            <label htmlFor="">Tiempo de entrega (e.g. 3 dias)</label>
+            <label htmlFor="">Tiempo de entrega (ejemplo 3 dias)</label>
             <input type="number" />
-            <label htmlFor="">Numero de reseñas</label>
+            <label htmlFor="">Cuantas reseñas quieres que se muestren en tu publicacion?</label>
             <input type="number" />
-            <label htmlFor="">Añade Caracteristicas</label>
+            <label htmlFor="">Cuales son las caracteristicas de tu servicio?</label>
             <input type="text" placeholder="e.g. diseño de pagina" />
             <input type="text" placeholder="e.g. subir archivos" />
             <input type="text" placeholder="e.g. configura tu dominio" />
             <input type="text" placeholder="e.g. hosting" />
-            <label htmlFor="">Precio</label>
+            <label htmlFor="">Precio apartir de</label>
             <input type="number" />
           </div>
         </div>

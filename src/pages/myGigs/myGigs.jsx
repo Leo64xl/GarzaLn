@@ -1,5 +1,7 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 import "./myGigs.scss"
+
 
 function MyGigs() {
   const currentUser = {
@@ -12,7 +14,7 @@ function MyGigs() {
     <div className="myGigs">
       <div className="container">
         <div className="title">
-          <h1>{currentUser.isSeller ? "Gigs" : "Orders"}</h1>
+          <h1>{currentUser.isSeller ? "Mis servicios" : "Orders"}</h1>
           {currentUser.isSeller && (
             <Link to="/add">
               <button>Agrega un nuevo servicio</button>
