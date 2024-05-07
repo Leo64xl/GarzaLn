@@ -45,7 +45,7 @@ const Chat = ({socket, username, room}) => {
     <div className='backM'>
       <div className='backS'>
       <h4 className='holder'>relleno</h4>
-       <CardContent header={'Chat en vivo   |   Sala: ${room}'} />
+       <CardContent header={`Chat en vivo   |   Sala: ${room}`} />
        <ScrollToBottom>
        <CardContent style={{height:"391px", padding:"15px" }}>
            
