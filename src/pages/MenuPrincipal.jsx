@@ -4,7 +4,6 @@ import { Link, useLocation } from "react-router-dom";
 import { NavLink } from 'react-router-dom';
 import Navbar from '../components/navbar/Navbar';
 import Featured from '../components/featured/Featured';
-import TrustedBy from '../components/trustedBy/TrustedBy';
 import Slide from '../components/Slider/Slide';
 import {cards} from '../data';
 import CatCard from '../components/catCard/CatCard';
@@ -17,7 +16,6 @@ const MenuPrincipal = () => {
     <div className='menuPrincipal'>
       <Navbar />
       <Featured />
-      <TrustedBy />
       <Slide slidesToShow={5} arrowsScroll={5}>
         {cards.map(card=>(
           <CatCard key={card.id} item={card}/>
@@ -69,15 +67,15 @@ const MenuPrincipal = () => {
           <div className="items">
           <div className="item">
             <img
-              src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/graphics-design.d32a2f8.svg"
+              src="/img/diseno.png"
               alt=""
             />
             <div className="line"></div>
-            <span>Diseño Grafico y Diseño</span>
+            <span>Artes Graficas y Diseño</span>
           </div>
             <div className="item">
             <img
-              src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/online-marketing.74e221b.svg"
+              src="/img/marketing.png"
               alt=""
             />
             <div className="line"></div>
@@ -86,7 +84,7 @@ const MenuPrincipal = () => {
           </div>
           <div className="item">
             <img
-              src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/writing-translation.32ebe2e.svg"
+              src="/img/escritura.png"
               alt=""
             />
             <div className="line"></div>
@@ -94,7 +92,7 @@ const MenuPrincipal = () => {
           </div>
           <div className="item">
             <img
-              src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/video-animation.f0d9d71.svg"
+              src="/img/video.png"
               alt=""
             />
             <div className="line"></div>
@@ -102,7 +100,7 @@ const MenuPrincipal = () => {
           </div>
           <div className="item">
             <img
-              src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/music-audio.320af20.svg"
+              src="/img/musica.png"
               alt=""
             />
             <div className="line"></div>
@@ -110,7 +108,7 @@ const MenuPrincipal = () => {
           </div>
           <div className="item">
             <img
-              src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/programming.9362366.svg"
+              src="/img/code.png"
               alt=""
             />
             <div className="line"></div>
@@ -118,7 +116,7 @@ const MenuPrincipal = () => {
           </div>
           <div className="item">
             <img
-              src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/business.bbdf319.svg"
+              src="/img/negocios.png"
               alt=""
             />
             <div className="line"></div>
@@ -126,7 +124,7 @@ const MenuPrincipal = () => {
           </div>
           <div className="item">
             <img
-              src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/lifestyle.745b575.svg"
+              src="/img/estilo.png"
               alt=""
             />
             <div className="line"></div>
@@ -134,15 +132,15 @@ const MenuPrincipal = () => {
           </div>
           <div className="item">
             <img
-              src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/data.718910f.svg"
+              src="/img/datos.png"
               alt=""
             />
             <div className="line"></div>
-            <span>Datos</span>
+            <span>Analisis de Datos</span>
           </div>
           <div className="item">
             <img
-              src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/photography.01cf943.svg"
+              src="/img/foto.png"
               alt=""
             />
             <div className="line"></div>
@@ -182,7 +180,7 @@ const MenuPrincipal = () => {
           </div>
           <div className="item">
             <img
-              src="https://fiverr-res.cloudinary.com/q_auto,f_auto,w_870,dpr_2.0/v1/attachments/generic_asset/asset/d9c17ceebda44764b591a8074a898e63-1599597624768/business-desktop-870-x2.png"
+              src="/img/group.png"
               alt=""
             />
           </div>

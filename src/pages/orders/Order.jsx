@@ -20,7 +20,7 @@ const Orders = () => {
             <th>Imagen</th>
             <th>Nombre del servicio</th>
             <th>Precio</th>
-            {<th>{currentUser.isSeller ? "Comprador" : "Seller"}</th>}
+            {<th>{currentUser.isSeller ? "Comprador" : "Vendedor"}</th>}
             <th>Contacto</th>
           </tr>
           <tr>
@@ -31,9 +31,9 @@ const Orders = () => {
                 alt=""
               />
             </td>
-            <td>Stunning concept art</td>
+            <td>Impresionante arte conceptual</td>
             <td>59.<sup>99</sup></td>
-            <td>Maria Anders</td>
+            <td>Maria Gonzalez</td>
             <td>
               <img className="message" src="/img/message.png" alt="" />
             </td>
@@ -46,9 +46,9 @@ const Orders = () => {
                 alt=""
               />
             </td>
-            <td>Ai generated concept art</td>
+            <td>Video de perritos</td>
             <td>79.<sup>99</sup></td>
-            <td>Francisco Chang</td>
+            <td>Silvia Diaz</td>
             <td>
               <img className="message" src="/img/message.png" alt="" />
             </td>
@@ -61,9 +61,9 @@ const Orders = () => {
                 alt=""
               />
             </td>
-            <td>High quality digital character</td>
+            <td>Carácter digital de alta calidad.</td>
             <td>110.<sup>99</sup></td>
-            <td>Roland Mendel</td>
+            <td>José Lopez</td>
             <td>
               <img className="message" src="/img/message.png" alt="" />
             </td>
@@ -76,9 +76,9 @@ const Orders = () => {
                 alt=""
               />
             </td>
-            <td>Illustration hyper realistic painting</td>
+            <td>Ilustración pintura hiperrealista.</td>
             <td>39.<sup>99</sup></td>
-            <td>Helen Bennett</td>
+            <td>Valeria Aguirre</td>
             <td>
               <img className="message" src="/img/message.png" alt="" />
             </td>
@@ -91,9 +91,9 @@ const Orders = () => {
                 alt=""
               />
             </td>
-            <td>Original ai generated digital art</td>
+            <td>Diseño de pagina web de cocina</td>
             <td>119.<sup>99</sup></td>
-            <td>Yoshi Tannamuri</td>
+            <td>Alicia Gimenez</td>
             <td>
               <img className="message" src="/img/message.png" alt="" />
             </td>
@@ -106,9 +106,9 @@ const Orders = () => {
                 alt=""
               />
             </td>
-            <td>Text based ai generated art</td>
+            <td>Guion para una obra teatral</td>
             <td>49.<sup>99</sup></td>
-            <td>Giovanni Rovelli</td>
+            <td>Roberto Medina</td>
             <td>
               <img className="message" src="/img/message.png" alt="" />
             </td>

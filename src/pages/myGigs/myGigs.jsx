@@ -14,7 +14,7 @@ function MyGigs() {
     <div className="myGigs">
       <div className="container">
         <div className="title">
-          <h1>{currentUser.isSeller ? "Mis servicios" : "Orders"}</h1>
+          <h1>{currentUser.isSeller ? "Mis servicios" : "Mis Pedidos"}</h1>
           {currentUser.isSeller && (
             <Link to="/add">
               <button>Agrega un nuevo servicio</button>
@@ -37,7 +37,7 @@ function MyGigs() {
                 alt=""
               />
             </td>
-            <td>Stunning concept art</td>
+            <td>Creo el diseño de tu pagina</td>
             <td>199.<sup>99</sup></td>
             <td>13</td>
             <td>
@@ -52,7 +52,7 @@ function MyGigs() {
                 alt=""
               />
             </td>
-            <td>Ai generated concept art</td>
+            <td>Personaje tipo pixel art</td>
             <td>120.<sup>99</sup></td>
             <td>41</td>
             <td>
@@ -67,7 +67,7 @@ function MyGigs() {
                 alt=""
               />
             </td>
-            <td>High quality digital character</td>
+            <td>Video para tik tok</td>
             <td>79.<sup>99</sup></td>
             <td>55</td>
             <td>
@@ -82,7 +82,7 @@ function MyGigs() {
                 alt=""
               />
             </td>
-            <td>Illustration hyper realistic painting</td>
+            <td>Limpio tu cuarto</td>
             <td>119.<sup>99</sup></td>
             <td>29</td>
             <td>
@@ -97,7 +97,7 @@ function MyGigs() {
                 alt=""
               />
             </td>
-            <td>Original ai generated digital art</td>
+            <td>Te ayudo con tu tarea de calculo</td>
             <td>59.<sup>99</sup></td>
             <td>34</td>
             <td>
@@ -112,7 +112,7 @@ function MyGigs() {
                 alt=""
               />
             </td>
-            <td>Text based ai generated art</td>
+            <td>Critico tu trabajo</td>
             <td>110.<sup>99</sup></td>
             <td>16</td>
             <td>

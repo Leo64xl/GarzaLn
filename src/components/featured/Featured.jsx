@@ -7,7 +7,7 @@ const Featured = () => {
         <div className="container">
             <div className="left">
                 <h1>
-                Encuentra el perfecto <i>freelance</i> servicios para tu negocio
+                Encuentra el perfecto servicio <i>freelance</i> para tu negocio
                 </h1>
                 <div className="search">
                     <div className="searchInput">
@@ -19,9 +19,9 @@ const Featured = () => {
                 <div className="popular">
                     <span>Popular:</span>
                     <button>Diseño Web</button>
-                    <button>WordPress</button>
+                    <button>Hola Mundo</button>
                     <button>Diseño de logo</button>
-                    <button>Servicios IA</button>
+                    <button>Tutorias de calculo</button>
                 </div>
             </div>
             <div className="right">

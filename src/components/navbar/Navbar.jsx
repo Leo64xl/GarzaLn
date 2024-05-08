@@ -101,9 +101,6 @@ function Navbar() {
               Escritura y Traduccion
             </Link>
             <Link className="link menuLink" to="/">
-              AI Servicios
-            </Link>
-            <Link className="link menuLink" to="/">
               Marketing Digital 
             </Link>
             <Link className="link menuLink" to="/">
