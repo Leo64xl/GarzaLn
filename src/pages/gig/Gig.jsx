@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Gig.scss"
 import { Link } from 'react-router-dom';
-import Navbar from '../../components/navbar/Navbar'
+import Slider from '../../components/SliderV1/Slider';
 
 function Gig() {
   return (
@@ -26,20 +26,7 @@ function Gig() {
               <span>5</span>
             </div>
           </div>
-
-            <img
-              src="https://images.pexels.com/photos/1074535/pexels-photo-1074535.jpeg?auto=compress&cs=tinysrgb&w=1600"
-              alt=""
-            />
-            <img
-              src="https://images.pexels.com/photos/1462935/pexels-photo-1462935.jpeg?auto=compress&cs=tinysrgb&w=1600"
-              alt=""
-            />
-            <img
-              src="https://images.pexels.com/photos/1054777/pexels-photo-1054777.jpeg?auto=compress&cs=tinysrgb&w=1600"
-              alt=""
-            />
-        
+          <Slider />
           <h2>Sobre este servicio</h2>
           <p>
           Con nuestro Paquete de Diseño Web Premium, no solo obtendrá un sitio web visualmente impresionante, sino también una plataforma en línea optimizada para el éxito de su negocio. Invierta en su presencia digital con confianza y deje que nuestros expertos diseñadores web impulsen su marca al siguiente nivel.
