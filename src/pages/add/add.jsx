@@ -94,7 +94,7 @@ const Add = () => {
   formData.append('caracteristicas', caracteristicas);
 
   try {
-    const res = await axios.post('/api/images/upload', formData);
+    const res = await axios.post('http://localhost:4000/api/images/upload', formData);
     console.log(res);
   } catch (error) {
     console.error('Error en la solicitud:', error);

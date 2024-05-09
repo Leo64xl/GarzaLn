@@ -181,4 +181,15 @@ export const cards = [
       star: 4,
       username: "Daniel Alvarez",
     },
+    async function handleSubmit(e) {
+      try {
+        const res = await axios.get('http://localhost:4000/api/images/');
+        console.log(res);
+      } catch (error) {
+        console.error('Error en la solicitud:', error);
+        
+      }
+    }
+  
+
   ];
