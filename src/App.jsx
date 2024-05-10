@@ -17,6 +17,7 @@ import Orders from "./pages/orders/Order";
 import MyGigs from "./pages/myGigs/myGigs";
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
+import { Toaster } from "react-hot-toast";
 
 
 
@@ -57,7 +58,8 @@ function App () {
   <Route path="/add" element={<Add />} />
   <Route path="/orders" element={<Orders />} />
   <Route path='/myGigs' element={<MyGigs />} />
-</Routes>           
+</Routes> 
+<Toaster />          
     </div>
   )
 }

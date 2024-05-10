@@ -111,7 +111,7 @@ export const cards = [
       username: "Ward Brewer",
     },
   ];
-  
+
 export const fetchGigs = () => {
   return axios.get('http://localhost:4000/api/images/')
     .then(response => {
@@ -120,7 +120,7 @@ export const fetchGigs = () => {
         // Verificar si response.data.gigs tiene un valor antes de intentar iterarlo
         const gigs = response.data;
         console.log('Datos recibidos:', gigs);
-        console.log(gigs[0]);
+        //console.log(gigs[0]);
         return gigs;
       } else {
         console.error('La respuesta no contiene datos de gigs.');
