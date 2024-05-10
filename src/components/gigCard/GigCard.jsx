@@ -6,16 +6,16 @@ const GigCard = ({ item }) => {
   return (
     <Link to="/gig/123" className="link">
       <div className="gigCard">
-        <img src={item.img} alt="" />
+        <img src={item.url} alt="" />
         <div className="info">
           <div className="user">
-            <img src={item.pp} alt="" />
-            <span>{item.username}</span>
+            <img src={item.url} alt="" />
+            <span>{item.nameUser || 'leo es gay'}</span>
           </div>
-          <p>{item.desc}</p>
+          <p>{item.descripcion}</p>
           <div className="star">
             <img src="/img/star.png" alt="" />
-            <span>{item.star}</span>
+            <span>{item.time || 5}</span>
           </div>
         </div>
         <hr />

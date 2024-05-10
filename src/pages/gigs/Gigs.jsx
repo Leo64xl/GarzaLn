@@ -1,9 +1,10 @@
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import "./Gigs.scss";
-import { gigs } from "../../data";
+import { fetchGigs } from "../../data";
 import GigCard from "../../components/gigCard/GigCard";
 
 function Gigs() {
+  const [gigs, setGigs] = useState([]);
   const [sort, setSort] = useState("sales");
   const [open, setOpen] = useState(false);
   const minRef = useRef();
@@ -14,10 +15,21 @@ function Gigs() {
     setOpen(false);
   };
 
-  const apply = ()=>{
-    console.log(minRef.current.value)
-    console.log(maxRef.current.value)
-  }
+  const apply = () => {
+    console.log(minRef.current.value);
+    console.log(maxRef.current.value);
+  };
+
+  useEffect(() => {
+    fetchGigs()
+      .then(gigsData => {
+        setGigs(gigsData);
+      })
+      .catch(error => {
+        // Manejo de errores
+        console.error('Error al obtener los datos:', error);
+      });
+  }, []);
 
   return (
     <div className="gigs">
@@ -46,8 +58,8 @@ function Gigs() {
                   <span onClick={() => reSort("createdAt")}>Lo mas nuevo</span>
                 ) : (
                   <span onClick={() => reSort("sales")}>Mejor vendido</span>
-                  )}
-                  <span onClick={() => reSort("sales")}>Popular</span>
+                )}
+                <span onClick={() => reSort("sales")}>Popular</span>
               </div>
             )}
           </div>

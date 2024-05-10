@@ -1,3 +1,7 @@
+import { useEffect } from "react";
+import { useState } from "react";
+import axios from 'axios';
+
 export const cards = [
     {
       id: 1,
@@ -108,88 +112,24 @@ export const cards = [
     },
   ];
   
-  export const gigs = [
-    {
-      id: 1,
-      img: "https://images.pexels.com/photos/580151/pexels-photo-580151.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      pp: "https://images.pexels.com/photos/720598/pexels-photo-720598.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      desc: "Yo creare pinturas digitales de alta calidad con inteligencia artificial",
-      price: 59,
-      star: 5,
-      username: "Cintia Lopez",
-    },
-    {
-      id: 2,
-      img: "https://images.pexels.com/photos/4145190/pexels-photo-4145190.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      pp: "https://images.pexels.com/photos/1036627/pexels-photo-1036627.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      desc: "Te ayudare a estudiar y aprender con inteligencia artificial y machine learning",
-      price: 79,
-      star: 5,
-      username: "Raúl Acosta",
-    },
-    {
-      id: 3,
-      img: "https://images.pexels.com/photos/8797307/pexels-photo-8797307.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      pp: "https://images.pexels.com/photos/1062280/pexels-photo-1062280.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      desc: "Yo pintare tu retrato digital",
-      price: 112,
-      star: 5,
-      username: "Liliana Perez",
-    },
-    {
-      id: 4,
-      img: "https://images.pexels.com/photos/5708069/pexels-photo-5708069.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      pp: "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      desc: "Creare un video especial para ti",
-      price: 99,
-      star: 4,
-      username: "Luis Ramirez",
-    },
-    {
-      id: 5,
-      img: "https://images.pexels.com/photos/5699456/pexels-photo-5699456.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      pp: "https://images.pexels.com/photos/1771383/pexels-photo-1771383.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      desc: "Psicologa independiente, te ayudare a resolver tus problemas",
-      price: 59,
-      star: 5,
-      username: "Cecilia Acosta",
-    },
-    {
-      id: 6,
-      img: "https://images.pexels.com/photos/8100784/pexels-photo-8100784.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      pp: "https://images.pexels.com/photos/715546/pexels-photo-715546.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      desc: "Yo creo fondos de pantalla de alta calidad",
-      price: 79,
-      star: 4,
-      username: "Pedro Fernandez",
-    },
-    {
-      id: 7,
-      img: "https://images.pexels.com/photos/6039245/pexels-photo-6039245.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      pp: "https://images.pexels.com/photos/720606/pexels-photo-720606.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      desc: "Yo genero arte personalizado usando midjourney generator",
-      price: 89,
-      star: 5,
-      username: "Mónica Perez",
-    },
-    {
-      id: 8,
-      img: "https://images.pexels.com/photos/5490778/pexels-photo-5490778.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      pp: "https://images.pexels.com/photos/1699159/pexels-photo-1699159.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      desc: "Dermatologo independiente, te ayudare a resolver tus problemas de piel",
-      price: 110,
-      star: 4,
-      username: "Daniel Alvarez",
-    },
-    async function handleSubmit(e) {
-      try {
-        const res = await axios.get('http://localhost:4000/api/images/');
-        console.log(res);
-      } catch (error) {
-        console.error('Error en la solicitud:', error);
-        
+export const fetchGigs = () => {
+  return axios.get('http://localhost:4000/api/images/')
+    .then(response => {
+      console.log(response);
+      if (response.data) {
+        // Verificar si response.data.gigs tiene un valor antes de intentar iterarlo
+        const gigs = response.data;
+        console.log('Datos recibidos:', gigs);
+        console.log(gigs[0]);
+        return gigs;
+      } else {
+        console.error('La respuesta no contiene datos de gigs.');
+        return []; // O devuelve un valor predeterminado en caso de error
       }
-    }
-  
-
-  ];
+    })
+    .catch(error => {
+      // Manejo de errores
+      console.error('Error al obtener los datos:', error.response);
+      throw error; // Propaga el error para manejarlo en otro lugar si es necesario
+    });
+};
